@@ -1,0 +1,327 @@
+#body-index {
+    background-image: url('/Users/mac14m1digital31/Documents/ProjectsVS/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#body-destination {
+    background-image: url('/Users/mac14m1digital31/Documents/ProjectsVS/space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#body-crew {
+    background-image: url('/Users/mac14m1digital31/Documents/ProjectsVS/space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#body-technology {
+    background-image: url('/Users/mac14m1digital31/Documents/ProjectsVS/space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-size: 90px;
+    margin: 0 auto;
+}
+
+.h1-index {
+    line-height: 2;
+}
+
+h2 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: 'Anuphan', sans-serif;
+    font-weight: 300;
+    
+}
+
+h2 {
+    font-size: 40px;
+    
+}
+
+h3 {
+    color: aliceblue;
+    margin: auto 150px;
+    line-height: 5;
+    text-transform: uppercase;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.h3-subtitle-index {
+    color: aliceblue;
+    margin: 150px auto 0 12.5%;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.h3-crew {
+    color: gray;
+    margin: 0;
+    line-height: 1;
+    font-size: 30px;
+}
+
+.subtitle {
+    margin-bottom: 0%;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-top: 20px;
+}
+
+.data {
+    color: aliceblue;
+    margin: auto 0px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 30px;
+}
+
+a {
+    color: aliceblue;
+    display: inline-block;
+    margin: auto 30px;
+    line-height: 3;
+    text-transform: uppercase;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+p {
+    color: aliceblue;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.logo {
+    margin: auto 50px;
+    display: inline-block;
+}
+
+.hr-header {
+    display: inline-block;
+    width: 500px;
+    border: none; 
+    border-top: 1px solid white; 
+    margin: auto;
+}
+
+.div-header {
+    display: flex;
+    height: 100px;
+    margin: 0;
+}
+
+.div-sections {
+    display: flex;
+    padding-right: 10%;
+    padding-left: 5%;
+    background-color: rgba(0, 51, 102, 0.25);
+}
+
+.div-text-left {
+    padding-right: 12.5%;
+    padding-left: 12.5%;
+    float: left;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
+.div-text-left-index {
+    padding-right: 12.5%;
+    padding-left: 12.5%;
+    float: left;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.div-text-left-tech {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+    width: 50%;
+    align-items: center;
+}
+
+.div-image-right {
+    float: right;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+.img-tech {
+    margin: auto 0 auto auto;
+}
+
+.div-text-right {
+    float: right;
+    padding-right: 12.5%;
+    padding-left: 12.5%;
+    width: 25%;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
+.div-image-left {
+    float: left;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+img {
+    margin: auto;
+}
+
+.a-sub-section {
+    font-size: 20px;
+    margin: auto 20px;
+}
+
+#p-explore {
+    margin: auto;
+    color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    background-color: white; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.number {
+    font-weight:900;
+}
+
+.h3-number-header {
+    color: gray;
+}
+
+.div-distance {
+    display: inline-block;
+    width: 180px;
+
+}
+
+.div-time {
+    display: inline-block;
+    width: 180px;
+}
+
+.div-content {
+    margin-bottom: 550px;
+}
+
+.div-content-tech {
+    margin-bottom: 550px;
+    display: flex;
+    flex-direction: row;
+}
+
+#selected-header {
+    text-decoration: underline;
+    text-underline-offset: 42px;
+}
+
+#selected-sub-section {
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.pagination-dot-active {
+    display: inline-block;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    border-radius: 50%;
+  }
+
+
+
+.indice-dot {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    line-height: 100px;
+    border: 1px solid white;
+    margin: 10px auto;
+    font-size: 37.5px;
+    justify-content: center;
+}
+
+.indice-dot-active {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: gray;
+    line-height: 100px;
+    border: 1px solid black;
+    margin: 10px auto;
+    font-size: 37.5px;
+    justify-content: center;
+  }
+
+  .indice {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15%;
+  }
+
+  .technology-content {
+    width: 55%;
+    margin-left: 5%;
+  }
+
+  .technology-text {
+    font-size: 20px;
+  }
